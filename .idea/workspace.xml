@@ -1,10 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1b750b15-b5f3-4ea7-9cf3-4a99b76bbe47" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stocks/quotes/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stocks/quotes/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stocks/quotes/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stocks/quotes/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stocks/quotes/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stocks/quotes/templates/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stocks/quotes/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stocks/quotes/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stocks/quotes/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stocks/quotes/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stocks/quotes/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1Tid9T29OSAyLPzXvljJGv9K21V" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/stocks/quotes/templates" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/stocks/quotes/templates" />
+      <recent name="$PROJECT_DIR$/stocks/quotes" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1b750b15-b5f3-4ea7-9cf3-4a99b76bbe47" name="Default Changelist" comment="" />
+      <created>1573946697820</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573946697820</updated>
+      <workItem from="1573946702654" duration="1477000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="284" y="125" key="CommitChangelistDialog2" timestamp="1573948190347">
+      <screen x="0" y="23" width="2560" height="1057" />
+    </state>
+    <state x="284" y="125" key="CommitChangelistDialog2/0.23.2560.1057@0.23.2560.1057" timestamp="1573948190347" />
   </component>
 </project>
