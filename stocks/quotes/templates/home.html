@@ -5,14 +5,43 @@
 <h1>Stock Quotes</h1>
 
 {% if api %}
-    {% if api == "Error..." %}
-        There was a problem with your ticker symbol,
-        please try again.
-    {% else %}
-        {% for key, value in api.items %}
-            <div class="row"><div class="col">{{key}}</div><div class="col">{{value}}</div></div>
-        {% endfor %}
-    {% endif %}
+{% if api == "Error..." %}
+There was a problem with your ticker symbol,
+please try again.
+{% else %}
+<h1>{{api.companyName}} ({{api.symbol}})</h1>
+
+<div class="row">
+    <div class="col">Price</div>
+    <div class="col">${{api.latestPrice}}</div>
+</div>
+
+<div class="row">
+    <div class="col">Previous Close</div>
+    <div class="col">${{api.previousClose}}</div>
+</div>
+
+<div class="row">
+    <div class="col">Market Cap</div>
+    <div class="col">${{api.marketCap}}</div>
+</div>
+
+<div class="row">
+    <div class="col">YTD Change</div>
+    <div class="col">${{api.ytdChange}}</div>
+</div>
+
+<div class="row">
+    <div class="col">52Wk High</div>
+    <div class="col">${{api.week52High}}</div>
+</div>
+
+<div class="row">
+    <div class="col">52Wk Low</div>
+    <div class="col">${{api.week52Low}}</div>
+</div>
+
+{% endif %}
 {% endif %}
 
 {% endblock %}
