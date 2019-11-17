@@ -2,7 +2,17 @@
 
 {% block content %}
 
-<h1>Hello World</h1>
-<a href="/about">About</a>
+<h1>Stock Quotes</h1>
+
+{% if api %}
+    {% if api == "Error..." %}
+        There was a problem with your ticker symbol,
+        please try again.
+    {% else %}
+        {% for key, value in api.items %}
+            <div class="row"><div class="col">{{key}}</div><div class="col">{{value}}</div></div>
+        {% endfor %}
+    {% endif %}
+{% endif %}
 
 {% endblock %}
